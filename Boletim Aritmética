@@ -1,12 +1,12 @@
 programa {
   funcao inicio() {
-    // DeclaraÁıes de vari·veis.
+    // Declara√ß√µes de vari√°veis.
     cadeia nome
     inteiro idade
     real primeiraNota, segundaNota, terceiraNota, quartaNota, media
 
 
-    // solicitando dados para o usu·rio.
+    // solicitando dados para o usu√°rio.
     escreva ("Digite seu nome: ")
     leia (nome)
 
@@ -26,10 +26,10 @@ programa {
     leia (quartaNota)
 
 
-    // Realizar c·lculos.
+    // Realizar c√°lculos.
     media = (primeiraNota + segundaNota + terceiraNota + quartaNota) / 4
 
-    // Exibindo dados para o usu·rio.
+    // Exibindo dados para o usu√°rio.
     limpa()
     escreva("=== Exibindo resultados ===")
     escreva("\nNome do aluno: ", nome)
